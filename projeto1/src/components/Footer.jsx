@@ -1,24 +1,32 @@
 import {Link} from 'react-router-dom'
 import { FooterStyle } from '../css/FooterStyle.jsx';
-import logo from  '../assets/logo.jpg'
+import { CgInstagram } from "react-icons/cg";
+import { CgFacebook } from "react-icons/cg";
+import { CgTwitter } from "react-icons/cg";
+
 // import { FaFacebookF, FaInstagram, FaTwitter, FaPinterestP } from 'react-icons'
 
 const Footer=()=>{
     return(
         <>
             <FooterStyle>
-                <div id="infos1">
-                    <img src={logo} alt="logo"/>
-                    <button>princípios editoriais</button>
-                    <button>política de privacidade</button>
-                    <button>minha conta</button>
-                </div>
-                
-                
+                <footer>
+                    <div id="infos1">
+                        <button>princípios editoriais</button>
+                        <button>política de privacidade</button>
+                        <button>minha conta</button>
+                    </div>
+                        
+                    <div id='icons'>
+                        <CgInstagram className='icones'/>
+                        <CgFacebook className='icones'/>
+                        <CgTwitter className='icones'/>
+                    </div>
 
-                <div id="infos2">
-                    <h5>@2024- Todos os direitos reservados</h5>
-                </div>
+                    <div id="infos2">
+                        <h5>@2024- Todos os direitos reservados</h5>
+                    </div>
+                </footer>
             </FooterStyle>
         </>
     )

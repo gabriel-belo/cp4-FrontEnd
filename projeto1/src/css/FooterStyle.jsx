@@ -1,40 +1,44 @@
 import styled from "styled-components";
 export const FooterStyle =styled.footer `
-    // display: flex;
-    // align-item:center;
-    // flex-direction:column;
-    position: fixed;
+    font-family: "Inter Tight", sans-serif; 
+    display: flex;
+    align-item:center;
+    justify-content: center;
+    position: relative;
     bottom: 0%;
     width: 100%;
     height: 120px;
-    background-color: green;
+    background-color: black;
     color: white;
+    
 
-#infos1{
-    display: flex;
-    align-items: center; /* Alinha todos os itens verticalmente ao centro */
-    margin-top: 10px;
-    margin-left: 30px;
 
+
+div{
+    display:flex;
+    align-item:center;
 }
-
-#infos2{
-    display:flex
-    margin-left: 30px;
-}
-
-
 button{
-    background-color: green;
+    background-color: black;
     color: white;
     border: none;
     cursor: pointer;
+    font:bold;
+}
+    
+.icons{
+    justify-content:  space-between;
 }
 
-img{
-    height:70px;
-
+.icones{
+    font-size:1.5rem;
+    padding:10px 15px 10px 15px;
 }
-
+.icones:hover{
+    font-size:2rem;
+}
+#infos2{
+    position: fixed;
+}
 
 `
