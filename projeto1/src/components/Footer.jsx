@@ -9,23 +9,15 @@ const Footer=()=>{
             <FooterStyle>
                 <div id="infos1">
                     <img src={logo} alt="logo"/>
-                    <button>agenda</button>
-                    <button>tabelas</button>
-                    {/* <h5>@2024- Todos os direitos reservados</h5> */}
+                    <button>princípios editoriais</button>
+                    <button>política de privacidade</button>
+                    <button>minha conta</button>
                 </div>
                 
                 
 
                 <div id="infos2">
-                    <span>
-                        <h5>@2024- Todos os direitos reservados</h5>
-                    </span>
-                    <ul>
-                        <li><button>princípios editoriais</button></li>
-                        <li><button>política de privacidade</button></li>
-                        <li><button>minha conta</button></li>
-                    </ul>
-                    
+                    <h5>@2024- Todos os direitos reservados</h5>
                 </div>
             </FooterStyle>
         </>

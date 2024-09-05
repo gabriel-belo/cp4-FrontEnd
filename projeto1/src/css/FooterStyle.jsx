@@ -7,7 +7,7 @@ export const FooterStyle =styled.footer `
     bottom: 0%;
     width: 100%;
     height: 120px;
-    background-color: blue;
+    background-color: green;
     color: white;
 
 #infos1{
@@ -18,27 +18,19 @@ export const FooterStyle =styled.footer `
 
 }
 
-
-
 #infos2{
     display:flex
-    // justify-content:space-between;
-    // margin-top: 10px;
-    // margin-right: 10px;
-}
-
-ul{
-    display:flex
-    list-style: none;
+    margin-left: 30px;
 }
 
 
 button{
-    background-color: blue;
+    background-color: green;
     color: white;
     border: none;
     cursor: pointer;
 }
+
 img{
     height:70px;
 

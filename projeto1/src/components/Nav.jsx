@@ -10,9 +10,17 @@ const Nav=()=>{
                 <img src={logo} alt="Logo" />
                 <Link to="/" className='navlink'>Home</Link>
                 <Link to="/produto" className='navlink'>Produtos</Link>
-                <Link to="/sobre" className='navLink'>Sobre</Link>
-                <Link to="/contato" className='navLink'>Contato</Link>
+                <Link to="/sobre" className='navlink'>Sobre</Link>
+                <Link to="/contato" className='navlink'>Contato</Link>
+                <div>
+                    {/* Adicionar uma lupa */}
+                    <input type="text" placeholder='Buscar'/>
+                </div>
+                <div>
+                    {/* fazer login e logon */}
+                </div>
             </section>
+
        </NavStyle>        
     )
 }

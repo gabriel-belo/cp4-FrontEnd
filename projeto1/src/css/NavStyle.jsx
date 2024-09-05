@@ -7,7 +7,7 @@ export const NavStyle =styled.section `
     gap:1rem;
     width:100%;
     height:70px;
-    background-image:linear-gradient(to left, aqua, blue);
+    background-color: green;
 }
 .navlink{
     font-size:1rem;
@@ -17,8 +17,14 @@ export const NavStyle =styled.section `
     padding:20px;
 }
 .navlink:hover{
-    color:yellow;
     font-size:1.2rem;
 }
 
+div{
+    margin-top: 20px;
+    border-radius:10px
+    border-color: whiite
+}
+
 `
+
