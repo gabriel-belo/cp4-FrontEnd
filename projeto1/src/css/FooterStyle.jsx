@@ -1,44 +1,50 @@
 import styled from "styled-components";
-export const FooterStyle =styled.footer `
-    font-family: "Inter Tight", sans-serif; 
+export const FooterStyle =styled.footer 
+`
+footer {
     display: flex;
-    align-item:center;
-    justify-content: center;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+    flex-direction: column;  /* Coloca as divs em coluna */
+    padding: 20px;
+    background-color: #f1f1f1;
     position: relative;
     bottom: 0%;
     width: 100%;
     height: 120px;
     background-color: black;
     color: white;
-    
 
-
-
-div{
-    display:flex;
-    align-item:center;
 }
-button{
+
+#infos1, #icons, #infos2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px; 
+}
+
+button {
+    margin: 0 10px;
     background-color: black;
     color: white;
     border: none;
     cursor: pointer;
     font:bold;
 }
-    
-.icons{
-    justify-content:  space-between;
-}
 
-.icones{
-    font-size:1.5rem;
-    padding:10px 15px 10px 15px;
+.icones {
+    font-size: 24px;
+    margin: 0 10px; 
 }
+    
 .icones:hover{
     font-size:2rem;
 }
-#infos2{
-    position: fixed;
-}
 
+#infos2 h5 {
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+}
 `

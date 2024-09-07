@@ -4,6 +4,7 @@ export const HomeStyle =styled.body`
 
 font-family: "Inter Tight", sans-serif;
 margin:0;
+background-image: linear-gradient(to bottom, #C8C8C8, 	#DFDFDF);
 
 
 
@@ -12,7 +13,7 @@ margin:0;
     flex-direction:column;
     align-item:center;
     justify-content:center;
-    background-color: red;
+    background-image: linear-gradient(to right, red, orange);
     // background-image: url(${imgPrincipal});
     background-width: 100%;
     background-height: 600px;
@@ -30,14 +31,22 @@ margin:0;
 
 #titulo{
     font-size:3rem;
-    color:white;
+    background: -webkit-linear-gradient(blue, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 90px;
+    margin-left: 40px;
 
 }
 
 
 #sub-titulo{
     font-size:1.5rem;
-    color:white;
+    background: -webkit-linear-gradient(blue, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 800px;
+    margin-left: 40px;
 
 }
 #btn-explora{
@@ -50,9 +59,13 @@ margin:0;
     width:250px;
     border-radius: 50px;
     padding: 10px 10px 10px 10px;
+    margin-left: 650px;
+    margin-bottom: 20px;
     cursor: pointer;
-    border-color: white;
-    
+    border-color: white; 
+}
+#btn-explora:hover{
+    background-image: linear-gradient(blue, black);
 }
 #sobre{
     display: flex;
@@ -95,6 +108,7 @@ margin:0;
     border: 2px;
     border-radius: 5px;
 }
+    
 .imgs{
     heigth: 300px;
     width: 300px;
@@ -104,7 +118,10 @@ margin:0;
 .conteudo{
     display:flex;
     flex-direction: column;
-    
+}
+.conteudo p, h3{
+    width:300px;
+
 }
 
 .buttons{
