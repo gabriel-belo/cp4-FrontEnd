@@ -39,7 +39,6 @@ const Home=()=>{
                     </div>
                 </section>
 
-                {/* imagem */}
 
                 <section id='produtos'>
                     <div id="teste">
